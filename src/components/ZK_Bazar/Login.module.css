@@ -1,0 +1,77 @@
+.backDrop {
+  background-color: gray;
+  display: grid;
+  height: 100vh;
+}
+
+.modal {
+  transition: 2s ease-in;
+  transition-delay: 1s;
+  transform: rotateY(21deg);
+  background-color: #5a5af1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  font-family: Consolas;
+}
+
+.header {
+  margin-top: 8vh;
+  margin-left: 0.7em;
+  font-weight: 800;
+  font-size: 1.6rem;
+}
+
+.Llabel {
+  font-size: 1.1rem;
+  font-weight: 530;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.Linput {
+  caret-color: #0a58ca;
+  caret-shape: underscore;
+  border-radius: 8px;
+  padding: 6px;
+  width: 300px;
+}
+
+.Linput:focus {
+  outline: 2px solid rgba(53, 234, 22, 0.76);
+  background-color: lightsalmon;
+  caret-shape: underscore;
+}
+
+.Linput::placeholder {
+  color: gray;
+}
+
+.btnContainer {
+  display: grid;
+  place-items: end;
+}
+
+.button {
+  background-color: #0dcaf0;
+  border-radius: 12px;
+  margin-top: 1.8rem;
+  width: 150px;
+  height: 30px;
+  font-size: 1.3rem;
+}
+
+.button:focus {
+  outline: 3px solid rgba(228, 234, 218, 0.51);
+}
+
+.danger {
+  color: red;
+}
